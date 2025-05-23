@@ -1,0 +1,49 @@
+.todo-list {
+  .list-group-item {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    border-color: #333;
+  }
+
+  .search-input {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    border: 1px solid #444;
+    padding: 8px;
+    border-radius: 4px;
+
+    &::placeholder {
+      color: #aaa;
+    }
+
+    &:focus {
+      background-color: #1e1e1e;
+      color: #f1f1f1;
+      border-color: #4a90e2;
+      box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+      outline: none;
+    }
+  }
+
+    .btn-outline-primary.active {
+      background-color: #4a90e2 !important;
+      color: #fff !important;
+      border-color: #4a90e2 !important;
+    }
+
+    .btn-outline-success.active{
+      background-color: #27ae60 !important;
+      color: #fff !important;
+      border-color: #27ae60 !important;
+    }
+
+    .btn-outline-warning.active {
+      background-color: #f39c12 !important;
+      color: #fff !important;
+      border-color: #f39c12 !important;
+    }
+
+  .no-todos {
+    color: #bbb;
+  }
+}

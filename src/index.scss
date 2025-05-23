@@ -1,0 +1,24 @@
+// @import '~bootstrap/dist/css/bootstrap.min.css';
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+// Override Bootstrap variables (optional)
+$body-bg: #121212;
+$body-color: #f1f1f1;
+$card-bg: #1e1e1e;
+$card-border-color: #2c2c2c;
+$btn-secondary-bg: #3c3c3c;
+$btn-secondary-border-color: #4c4c4c;
+
+// General overrides
+.card {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  border-color: #2c2c2c;
+}
+
