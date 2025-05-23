@@ -71,8 +71,8 @@ function App() {
       <h1 className="text-center mb-5">WelCome To ToDoList</h1>
       <TodosContext.Provider value={{ todos, setTodos }}>
         <TodoForm />
-        <TodoResults />
         <TodoList />
+        <TodoResults />
       </TodosContext.Provider>
     </div>
   );

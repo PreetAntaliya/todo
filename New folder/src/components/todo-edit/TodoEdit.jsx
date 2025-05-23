@@ -11,8 +11,8 @@ export const TodoEdit = ({ task, onSave, onCancel }) => {
   };
 
   return (
-    <div className="modal fade show d-block todo-edit" tabIndex="-1" role="dialog" style={{ backgroundColor: 'rgba(0,0,0,0.7)' }}>
-      <div className="modal-dialog modal-dialog-centered" role="document">
+    <div className="modal fade show d-block" tabIndex="-1" role="dialog" style={{ backgroundColor: 'rgba(0,0,0,0.7)' }}>
+      <div className="modal-dialog" role="document">
         <div className="modal-content bg-dark text-light">
           <div className="modal-header">
             <h5 className="modal-title">Edit Task</h5>
@@ -20,9 +20,10 @@ export const TodoEdit = ({ task, onSave, onCancel }) => {
           </div>
           <div className="modal-body">
             <input
-              className="form-control search-input"
+              className="form-control"
               value={editedLabel}
               onChange={(e) => setEditedLabel(e.target.value)}
+              // autoFocus
             />
           </div>
           <div className="modal-footer">

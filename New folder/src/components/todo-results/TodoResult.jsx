@@ -7,7 +7,7 @@ export const TodoResults = () => {
   const completedCount = todos.filter((todo) => todo.checked).length;
 
   return (
-    <div className="todo-results mb-4">
+    <div className="todo-results">
       <div className="alert alert-success text-center mb-0">
         ✅ Completed Tasks:&nbsp;
         <strong>{completedCount}</strong>
